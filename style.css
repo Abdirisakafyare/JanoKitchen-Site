@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+body {
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 1.3rem;
+  }
+header {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border-bottom: 1px solid rgb(241, 241, 241);
+  }
+nav {
+    height: 80px;
+    width: 400px;
+    }
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+   }
+a {
+  text-decoration: none;
+  color: inherit;
+  }
+header h2 {
+    color: #697c8e;
+    }
+ul li a {
+    color: #dc757d;
+    }
+ul li {
+    padding: 10px ;
+    }
+ul li:hover {
+  background-color: #fdf6ed;
+}
+    
+.suqar {
+    background-color: rgb(226, 226, 172);
+    width: 92%;
+    display: flex;
+    margin: auto;
+    }
+.suqar img {
+  margin-right: 24px;
+  width: 600px;
+}
+.suqar div {
+  padding: 30px;
+  font-size: 5rem;
+  color: gray;
+}
+
+
+.drinks {
+    background-color: rgb(254, 254, 254);
+    height: 400px;
+    width: 100%;
+    margin-top: 80px;
+    border-top: 2px solid rgb(255, 251, 237);
+    border-bottom: 2px solid rgb(255, 251, 237);
+}
+
+.drinks h4 {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+}
+
+.boxes {
+  height: 380px;
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+}
+
+.box {
+  height: 304px;
+  min-width: 400px;
+  margin: 20px;
+}
+
+.box img {
+  width: 100%;
+  border: 5px solid rgb(255, 244, 214);
+  border-radius: 10px;
+}
+
+.footer {
+  background-color: #697c8e;
+  height: 150px;
+  padding: 40px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 26px;
+}
+.footer a {
+  color: whitesmoke;
+}
+.sub-footer {
+  background-color: lightblue;
+  height: 50px;
+  text-align: center;
+  padding-top: 20px;
+}
